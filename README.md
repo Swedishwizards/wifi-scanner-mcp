@@ -22,6 +22,7 @@
   <a href="https://github.com/Swedishwizards/wifi-scanner-mcp/releases/latest"><img alt="Download .mcpb" src="https://img.shields.io/github/v/release/Swedishwizards/wifi-scanner-mcp?label=download&color=6E56CF"></a>
   <a href="https://github.com/Swedishwizards/wifi-scanner-mcp/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Swedishwizards/wifi-scanner-mcp/actions/workflows/ci.yml/badge.svg"></a>
   <a href="https://github.com/sponsors/Swedishwizards"><img alt="Sponsor" src="https://img.shields.io/badge/sponsor-%E2%9D%A4-ea4aaa?logo=githubsponsors&logoColor=white"></a>
+  <a href="https://www.buymeacoffee.com/swedishwizards"><img alt="Buy me a coffee" src="https://img.shields.io/badge/buy_me_a_coffee-%E2%98%95-FFDD00?logo=buymeacoffee&logoColor=000"></a>
 </p>
 
 ---
@@ -213,9 +214,7 @@ WiFi Scanner MCP is free and always will be. If it saved you a call to your ISP 
 
 <p>
   <a href="https://github.com/sponsors/Swedishwizards"><img alt="Sponsor on GitHub" src="https://img.shields.io/badge/Sponsor_on_GitHub-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white"></a>
-  <!-- Buy Me a Coffee: replace YOUR-BMC-NAME and remove this comment wrapper once the account exists
-  <a href="https://www.buymeacoffee.com/YOUR-BMC-NAME"><img alt="Buy me a coffee" src="https://img.shields.io/badge/Buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000"></a>
-  -->
+  <a href="https://www.buymeacoffee.com/swedishwizards"><img alt="Buy me a coffee" src="https://img.shields.io/badge/Buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000"></a>
 </p>
 
 A ⭐ on the repo helps too: it makes the project easier for others to find.
