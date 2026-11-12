@@ -10,7 +10,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        # macOS is covered by the release workflow (tests + helper build on every tag).
+        os: [ubuntu-latest, windows-latest]
         node: [18, 22]
     runs-on: ${{ matrix.os }}
     steps:
@@ -27,6 +28,3 @@ jobs:
             '{"jsonrpc":"2.0","id":2,"method":"tools/list","params":{}}' \
             | node server/index.js | tee out.txt
           grep -q scan_wifi_networks out.txt
-      - name: Build macOS helper
-        if: runner.os == 'macOS'
-        run: bash macos/build.sh
