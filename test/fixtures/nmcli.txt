@@ -1,0 +1,4 @@
+*:A4\:2B\:B0\:11\:22\:33:HomeNet:36:5180 MHz:92:WPA2
+ :10\:20\:30\:40\:50\:60:CoffeeShop Free:1:2412 MHz:40:
+ :DE\:AD\:BE\:EF\:00\:01::149:5745 MHz:55:WPA2
+ :0A\:0B\:0C\:0D\:0E\:0F:Odd\:Name:37:6135 MHz:100:WPA3

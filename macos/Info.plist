@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleIdentifier</key><string>io.github.wifi-scanner-mcp.helper</string>
+  <key>CFBundleName</key><string>WifiScanHelper</string>
+  <key>CFBundleDisplayName</key><string>WifiScanHelper</string>
+  <key>CFBundleExecutable</key><string>WifiScanHelper</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+  <key>CFBundleVersion</key><string>1</string>
+  <key>CFBundleShortVersionString</key><string>1.0.0</string>
+  <key>LSMinimumSystemVersion</key><string>13.0</string>
+  <key>LSUIElement</key><true/>
+  <key>NSLocationUsageDescription</key><string>macOS only shows Wi-Fi network names to apps with Location access. WifiScanHelper uses it to list nearby networks for Claude. Your location is never read or sent anywhere.</string>
+  <key>NSLocationWhenInUseUsageDescription</key><string>macOS only shows Wi-Fi network names to apps with Location access. WifiScanHelper uses it to list nearby networks for Claude. Your location is never read or sent anywhere.</string>
+</dict>
+</plist>

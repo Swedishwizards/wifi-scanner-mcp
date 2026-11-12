@@ -1,0 +1,6 @@
+node_modules/
+build/
+dist/
+macos/WifiScanHelper.app/
+*.mcpb
+.DS_Store

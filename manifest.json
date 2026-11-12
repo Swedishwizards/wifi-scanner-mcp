@@ -1,0 +1,51 @@
+{
+  "manifest_version": "0.3",
+  "name": "wifi-scanner",
+  "display_name": "WiFi Scanner",
+  "version": "1.0.0",
+  "description": "Let Claude see nearby Wi-Fi networks: names, signal, channels, security, and the best channel for your router.",
+  "long_description": "WiFi Scanner gives Claude three read-only tools for the Wi-Fi around you:\n\n- **scan_wifi_networks** – list nearby networks with signal (dBm, %, bars), channel, 2.4/5/6 GHz band and security (open, WEP, WPA, WPA2, WPA3, enterprise).\n- **get_current_wifi** – details about the network you are connected to.\n- **analyze_wifi_channels** – channel congestion per band, the least crowded channel for your router, and nearby insecure networks.\n\nWorks on macOS (CoreWLAN via a tiny bundled helper that asks for Location access once, because macOS hides Wi-Fi names otherwise) and Windows (built-in netsh, any display language). Everything runs locally: no internet access, no telemetry, no data leaves your computer.",
+  "author": {
+    "name": "Swedishwizards",
+    "url": "https://github.com/Swedishwizards/wifi-scanner-mcp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Swedishwizards/wifi-scanner-mcp"
+  },
+  "homepage": "https://github.com/Swedishwizards/wifi-scanner-mcp",
+  "support": "https://github.com/Swedishwizards/wifi-scanner-mcp/issues",
+  "icon": "icon.png",
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/server/index.js"]
+    }
+  },
+  "tools": [
+    {
+      "name": "scan_wifi_networks",
+      "description": "Scan nearby Wi-Fi networks with signal, channel, band and security."
+    },
+    {
+      "name": "get_current_wifi",
+      "description": "Show the Wi-Fi network this computer is connected to."
+    },
+    {
+      "name": "analyze_wifi_channels",
+      "description": "Channel congestion, best router channel and insecure nearby networks."
+    }
+  ],
+  "tools_generated": false,
+  "keywords": ["wifi", "wi-fi", "wlan", "network", "scanner", "ssid", "channel", "router", "signal", "security", "macos", "windows"],
+  "license": "MIT",
+  "compatibility": {
+    "claude_desktop": ">=0.10.0",
+    "platforms": ["darwin", "win32"],
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  }
+}

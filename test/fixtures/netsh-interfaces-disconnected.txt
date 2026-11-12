@@ -1,0 +1,13 @@
+
+There is 1 interface on the system:
+
+    Name                   : Wi-Fi
+    Description            : Realtek RTL8822CE 802.11ac PCIe Adapter
+    GUID                   : 11111111-2222-3333-4444-555555555555
+    Physical address       : 00:e0:4c:68:00:01
+    Interface type         : Primary
+    State                  : disconnected
+    Radio status           : Hardware On
+                             Software On
+
+    Hosted network status  : Not available

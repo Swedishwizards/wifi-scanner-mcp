@@ -1,0 +1,28 @@
+
+Gränssnittsnamn : Wi-Fi
+Det finns 2 nätverk som för närvarande visas.
+
+SSID 1 : Hemmanätet Åkesson
+    Nätverkstyp             : Infrastruktur
+    Autentisering           : WPA2-Personal
+    Kryptering              : CCMP
+    BSSID 1                 : 3c:84:6a:aa:bb:cc
+         Signal             : 81%
+         Radiotyp           : 802.11ac
+         Band               : 5 GHz
+         Kanal              : 44
+         Anslutna stationer : 2
+         Grundhastigheter (Mbit/s) : 6 12 24
+         Andra hastigheter (Mbit/s) : 9 18 36 48 54
+
+SSID 2 : Gäst
+    Nätverkstyp             : Infrastruktur
+    Autentisering           : Öppen
+    Kryptering              : Ingen
+    BSSID 1                 : 3c-84-6a-aa-bb-cd
+         Signal             : 33%
+         Radiotyp           : 802.11n
+         Band               : 2,4 GHz
+         Kanal              : 11
+         Grundhastigheter (Mbit/s) : 1 2 5.5 11
+         Andra hastigheter (Mbit/s) : 6 9 12 18 24 36 48 54

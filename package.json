@@ -1,0 +1,57 @@
+{
+  "name": "wifi-scanner-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that lets Claude scan nearby Wi-Fi networks, show signal/channel/security and recommend the best router channel. macOS + Windows (+ Linux). Zero dependencies, local and read-only.",
+  "main": "server/index.js",
+  "bin": {
+    "wifi-scanner-mcp": "server/index.js"
+  },
+  "files": [
+    "server/",
+    "macos/WifiScanHelper.swift",
+    "macos/Info.plist",
+    "macos/build.sh",
+    "manifest.json",
+    "icon.png",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test",
+    "build:mac": "bash macos/build.sh",
+    "pack": "node scripts/pack.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "claude",
+    "claude-desktop",
+    "mcpb",
+    "wifi",
+    "wi-fi",
+    "wifi-scanner",
+    "wlan",
+    "ssid",
+    "network-scanner",
+    "channel-analyzer",
+    "site-survey",
+    "macos",
+    "windows",
+    "corewlan",
+    "netsh"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swedishwizards/wifi-scanner-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Swedishwizards/wifi-scanner-mcp/issues"
+  },
+  "homepage": "https://github.com/Swedishwizards/wifi-scanner-mcp#readme"
+}
