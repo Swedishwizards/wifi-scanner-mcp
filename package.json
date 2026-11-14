@@ -1,6 +1,6 @@
 {
   "name": "wifi-scanner-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server that lets Claude scan nearby Wi-Fi networks, show signal/channel/security and recommend the best router channel. macOS + Windows (+ Linux). Zero dependencies, local and read-only.",
   "main": "server/index.js",
   "bin": {
