@@ -270,6 +270,13 @@ function main() {
   process.stdin.resume();
 }
 
-if (require.main === module) main();
+// Start when this file is the program, also when a host loads it through its own
+// bootstrap script (Claude Desktop's built-in Node does that, so require.main is the
+// host's script there). process.argv[1] still names this file in that case. Tests that
+// require() the module run under the test runner, so argv[1] is not this file and the
+// server does not start.
+const startedDirectly = require.main === module
+  || (typeof process.argv[1] === 'string' && require('node:path').resolve(process.argv[1]) === __filename);
+if (startedDirectly) main();
 
 module.exports = { handle, TOOLS, summarize };
